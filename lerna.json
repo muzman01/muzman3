@@ -1,0 +1,11 @@
+{
+    "version": "independent",
+    "packages": [
+      "packages/*",
+      "example"
+    ],
+    "npmClient": "yarn",
+    "ignoreChanges": ["**/*.md", "**/*.spec.ts"],
+    "useWorkspaces": true
+  }
+  

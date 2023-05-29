@@ -1,0 +1,31 @@
+{
+  "name": "@muzman3/types",
+  "keywords": [
+    "muzman3"
+  ],
+  "author": "muzman01 <https://github.com/muzman01>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzman01/muzman3.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "files": [
+    "dist/*"
+  ],
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "zustand": "^4.3.8"
+  }
+}

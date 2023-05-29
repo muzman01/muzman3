@@ -1,0 +1,43 @@
+{
+    "name": "@muzman/core",
+    "keywords": [
+      "muzman",
+      "metamask",
+      "wallet-connect",
+      "web3"
+    ],
+    "author": "muzman01 <https://github.com/muzman01>",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/muzman01/muzman3.git"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "version": "1.0.0",
+    "files": [
+      "dist/*"
+    ],
+    "type": "commonjs",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "exports": "./dist/index.js",
+    "scripts": {
+      "prebuild": "rm -rf dist",
+      "build": "tsc",
+      "start": "tsc --watch"
+    },
+    "dependencies": {
+        "@muzman/store": "^1.0.0",
+        "@muzman/types": "^1.0.0",
+        "zustand": "^4.3.5"
+      },
+      "peerDependencies": {
+        "react": ">=16.8"
+      },
+      "optionalDependencies": {
+        "@ethersproject/providers": "^5"
+      }
+  }
+  

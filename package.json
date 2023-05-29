@@ -1,0 +1,19 @@
+{
+  "name": "muzman",
+  "version": "1.0.0",
+  "description": "Made with Web3 and React js. An interface that handles many of your Web3 operations with a few functions.",
+  "main": "muzman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzman01/muzman3.git"
+  },
+  "author": "muzman01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muzman01/muzman3/issues"
+  },
+  "homepage": "https://github.com/muzman01/muzman3#readme"
+}

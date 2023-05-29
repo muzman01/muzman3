@@ -1,5 +1,5 @@
 {
-  "name": "@muzman/types",
+  "name": "@muzman/store",
   "keywords": [
     "muzman"
   ],
@@ -26,6 +26,8 @@
     "start": "tsc --watch"
   },
   "dependencies": {
-    "zustand": "^4.3.8"
+    "@ethersproject/address": "^5",
+    "@muzman/types": "^1.0.0",
+    "zustand": "^4.3.5"
   }
 }
